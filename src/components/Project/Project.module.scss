@@ -1,0 +1,54 @@
+.Row {
+    padding: 100px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .Container {
+        width: 66%;
+        display: flex;
+        .Details {
+            .Buttons {
+                margin-left: -10px;
+                button {
+                    cursor: pointer;
+                    width: 126px;
+                    height: 45px;
+                    border-radius: 50px;
+                    border-color: transparent;
+                    background-color: #a2a3e9;
+                    color: white;
+                    margin: 10px;
+                    &:focus {
+                        outline: none;
+                    }
+                    &:hover {
+                        transition: 0.1s ease-in;
+                        transform: scale(0.95);
+                    }
+                }
+            }
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            width: 67%;
+            padding: 0 20px;
+        }
+        @media (max-width: 1367px) {
+            flex-direction: column !important;
+            img {
+                width: 100%;
+                padding: 0;
+            }
+        }
+    }
+    &.White {
+        background-color: white;
+        .Container {
+            flex-flow: row-reverse;
+        }
+    }
+    &.Grey {
+        background-color: #f1f0f0;
+    }
+}
