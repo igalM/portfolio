@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import styles from './App.module.scss';
 
+import CoverPhoto from './assets/cover.png';
+
 import Header from './components/Header/Header';
 import Project from './components/Project/Project';
 import Footer from './components/Footer/Footer';
@@ -61,6 +63,7 @@ class App extends Component {
   render() {
     return (
       <div className={styles.App} >
+        <img className={styles.Cover} src={CoverPhoto} alt="Cover photo" />
         <Header />
         {this.state.projects.map((p, i) => {
           return <Project
