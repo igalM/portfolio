@@ -18,7 +18,7 @@ class App extends Component {
         stack: 'Angular 9, NgRx, RxJS, NodeJS, Cheerio, Puppeteer, Redis, HTML5, SCSS, Angular Material.',
         img: require('./assets/covid.png'),
         github: 'https://github.com/igalM/covid',
-        demo: 'https://covid-il.herokuapp.com/index',
+        demo: 'https://covid-il.herokuapp.com',
       },
       {
         id: 1,
@@ -27,7 +27,7 @@ class App extends Component {
         stack: 'Angular 9, NgRx, RxJS, HTML5, SCSS, Angular Material.',
         img: require('./assets/weather.png'),
         github: 'https://github.com/igalM/weather-app',
-        demo: 'http://world-weather.s3-website.eu-north-1.amazonaws.com/index',
+        demo: 'http://world-weather.s3-website.eu-north-1.amazonaws.com',
       },
       {
         id: 2,
@@ -36,7 +36,7 @@ class App extends Component {
         stack: 'Angular 9, HTML5, SCSS, Angular Material.',
         img: require('./assets/dinamo.png'),
         github: 'https://github.com/igalM/dinamo',
-        demo: 'https://igalm.github.io/dinamo/index',
+        demo: 'https://igalm.github.io/dinamo',
       },
       {
         id: 3,
@@ -45,7 +45,25 @@ class App extends Component {
         stack: 'Angular 9, NgRx, RxJS, Amazon Web Services S3, NodeJS, HTML5, SCSS, Angular Material.',
         img: require('./assets/school.png'),
         github: 'https://github.com/igalM/school',
-        demo: 'http://angular-school.s3-website.eu-north-1.amazonaws.com/index',
+        demo: 'http://angular-school.s3-website.eu-north-1.amazonaws.com',
+      },
+      {
+        id: 4,
+        name: 'Have You Been Pwned?',
+        title: 'This project shows a list of websites that have been breached.',
+        stack: 'Angular 9, RxJS, HTML5, SCSS, Angular Material.',
+        img: require('./assets/pwned.png'),
+        github: 'https://github.com/igalM/lazy-loading-scroll',
+        demo: 'https://igalm.github.io/lazy-loading-scroll',
+      },
+      {
+        id: 5,
+        name: 'News Feed',
+        title: `This project shows a list of stories that gratifies one's intellectual curiosity.`,
+        stack: 'Angular 9, RxJS, HTML5, SCSS, Angular Material.',
+        img: require('./assets/news-feed.png'),
+        github: 'https://github.com/igalM/news-feed',
+        demo: 'https://igalm.github.io/news-feed',
       }
     ]
   }
@@ -63,7 +81,7 @@ class App extends Component {
   render() {
     return (
       <div className={styles.App} >
-        <img className={styles.Cover} src={CoverPhoto} alt="Cover photo" />
+        <img className={styles.Cover} src={CoverPhoto} alt="Project Screenshot" />
         <Header />
         {this.state.projects.map((p, i) => {
           return <Project
