@@ -22,6 +22,15 @@ class App extends Component {
       },
       {
         id: 1,
+        name: 'Build Your Burger!',
+        title: 'This project allows you to customize your own burger and order it.',
+        stack: 'React + Hooks, Redux, TypeScript, Material-UI, Axios, Firebase, Formik, Yup, SCSS.',
+        img: require('./assets/burger.png'),
+        github: 'https://github.com/igalM/react-burger',
+        demo: 'https://burger-builder-7eb09.web.app/',
+      },
+      {
+        id: 2,
         name: 'Weather World',
         title: 'This project allows you to view the current weather anywhere in the world.',
         stack: 'Angular 9, NgRx, RxJS, HTML5, SCSS, Angular Material.',
@@ -30,7 +39,7 @@ class App extends Component {
         demo: 'http://world-weather.s3-website.eu-north-1.amazonaws.com',
       },
       {
-        id: 2,
+        id: 3,
         name: 'Bring A Friend',
         title: 'This project is a real-time diagram of all the friends you bring, and the commission rate you get from them.',
         stack: 'Angular 9, HTML5, SCSS, Angular Material.',
@@ -39,22 +48,13 @@ class App extends Component {
         demo: 'https://igalm.github.io/dinamo',
       },
       {
-        id: 3,
+        id: 4,
         name: 'My School Platform',
         title: 'This project is a small platform for managing students, teachers and courses.',
         stack: 'Angular 9, NgRx, RxJS, Amazon Web Services S3, NodeJS, HTML5, SCSS, Angular Material.',
         img: require('./assets/school.png'),
         github: 'https://github.com/igalM/school',
         demo: 'http://angular-school.s3-website.eu-north-1.amazonaws.com',
-      },
-      {
-        id: 4,
-        name: 'Have You Been Pwned?',
-        title: 'This project shows a list of websites that have been breached.',
-        stack: 'Angular 9, RxJS, HTML5, SCSS, Angular Material.',
-        img: require('./assets/pwned.png'),
-        github: 'https://github.com/igalM/lazy-loading-scroll',
-        demo: 'https://igalm.github.io/lazy-loading-scroll',
       },
       {
         id: 5,
