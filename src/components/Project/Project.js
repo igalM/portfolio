@@ -14,7 +14,7 @@ const Project = props => {
     return (
         <div className={classes.join(' ')}>
             <div className={styles.Container}>
-                <img src={props.img} alt="Demo image" />
+                <img src={props.img} alt="Demo" />
                 <div className={styles.Details}>
                     <h2>{props.name}</h2>
                     <p>{props.title}</p>
