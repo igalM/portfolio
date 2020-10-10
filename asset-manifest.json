@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ff5d7223.chunk.css",
-    "main.js": "/portfolio/static/js/main.f0cdcb5e.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.f0cdcb5e.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.1bfbc8c8.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.1bfbc8c8.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/js/2.5e126a45.chunk.js": "/portfolio/static/js/2.5e126a45.chunk.js",
     "static/js/2.5e126a45.chunk.js.map": "/portfolio/static/js/2.5e126a45.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.5428ec1f6ab98abc6597f4537d0e5a73.js": "/portfolio/precache-manifest.5428ec1f6ab98abc6597f4537d0e5a73.js",
+    "precache-manifest.14ee530a20792d311cae6fe99931fd26.js": "/portfolio/precache-manifest.14ee530a20792d311cae6fe99931fd26.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.ff5d7223.chunk.css.map": "/portfolio/static/css/main.ff5d7223.chunk.css.map",
     "static/js/2.5e126a45.chunk.js.LICENSE.txt": "/portfolio/static/js/2.5e126a45.chunk.js.LICENSE.txt",
     "static/media/burger.png": "/portfolio/static/media/burger.fde43422.png",
+    "static/media/chat-room.png": "/portfolio/static/media/chat-room.47a9b305.png",
     "static/media/covid.png": "/portfolio/static/media/covid.e23d23a5.png",
     "static/media/dinamo.png": "/portfolio/static/media/dinamo.7b74d013.png",
     "static/media/facebook.svg": "/portfolio/static/media/facebook.530031be.svg",
@@ -20,6 +21,7 @@
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.7fd59651.svg",
     "static/media/news-feed.png": "/portfolio/static/media/news-feed.b632fd1f.png",
     "static/media/profile-picture.jpg": "/portfolio/static/media/profile-picture.7060e9f3.jpg",
+    "static/media/pwned.png": "/portfolio/static/media/pwned.9ed0b7f1.png",
     "static/media/school.png": "/portfolio/static/media/school.ad872bcd.png",
     "static/media/weather.png": "/portfolio/static/media/weather.708b7a47.png"
   },
@@ -27,6 +29,6 @@
     "static/js/runtime-main.209c2d7e.js",
     "static/js/2.5e126a45.chunk.js",
     "static/css/main.ff5d7223.chunk.css",
-    "static/js/main.f0cdcb5e.chunk.js"
+    "static/js/main.1bfbc8c8.chunk.js"
   ]
 }
