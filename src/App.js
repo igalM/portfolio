@@ -26,7 +26,7 @@ class App extends Component {
         title: 'This project allows you to communicate with your friends in a real-time chat room.',
         stack: 'React + Hooks, Redux + Saga, NodeJS, MongoDB, Amazon Web Services S3, Socket.IO, TypeScript, Material-UI, Styled Components, Axios, HTML5, SCSS.',
         img: require('./assets/chat-room.png'),
-        github: 'https://github.com/igalM/react-burger',
+        github: 'https://github.com/igalM/chat-room',
         demo: 'https://igalm.github.io/chat',
       },
       {
