@@ -40,6 +40,15 @@ class App extends Component {
       },
       {
         id: 3,
+        name: '3D Cubes',
+        title: '3D cubes that change their color on click and are updated Real-Time on different browsers.',
+        stack: 'Angular 9, RxJS, Firebase, Cloud Firestore, BabylonJS, HTML5, SCSS.',
+        img: require('./assets/3d-cubes.png'),
+        github: 'https://github.com/igalM/3d-cubes',
+        demo: 'https://igalm.github.io/3d-cubes',
+      },
+      {
+        id: 4,
         name: 'My School Platform',
         title: 'This project is a small platform for managing students, teachers and courses.',
         stack: 'Angular 9 + Angular Universal SSR, NgRx, RxJS, NodeJS, MongoDB Amazon Web Services S3,  HTML5, SCSS, Angular Material.',
@@ -48,7 +57,7 @@ class App extends Component {
         demo: 'http://angular-school.s3-website.eu-north-1.amazonaws.com',
       },
       {
-        id: 4,
+        id: 5,
         name: 'Weather World',
         title: 'This project allows you to view the current weather anywhere in the world.',
         stack: 'Angular 9, NgRx, RxJS, HTML5, SCSS, Angular Material.',
@@ -57,7 +66,7 @@ class App extends Component {
         demo: 'http://world-weather.s3-website.eu-north-1.amazonaws.com',
       },
       {
-        id: 5,
+        id: 6,
         name: 'Bring A Friend',
         title: 'This project is a real-time diagram of all the friends you bring, and the commission rate you get from them.',
         stack: 'Angular 9, HTML5, SCSS, Angular Material.',
@@ -66,22 +75,13 @@ class App extends Component {
         demo: 'https://igalm.github.io/dinamo',
       },
       {
-        id: 6,
+        id: 7,
         name: 'News Feed',
         title: `This project shows a list of stories that gratifies one's intellectual curiosity.`,
         stack: 'Angular 9, RxJS, HTML5, SCSS, Angular Material.',
         img: require('./assets/news-feed.png'),
         github: 'https://github.com/igalM/news-feed',
         demo: 'https://igalm.github.io/news-feed',
-      },
-      {
-        id: 7,
-        name: 'Have You Been Pwned?',
-        title: 'This project shows a list of websites that have been breached.',
-        stack: 'Angular 9, RxJS, HTML5, SCSS, Angular Material.',
-        img: require('./assets/pwned.png'),
-        github: 'https://github.com/igalM/lazy-loading-scroll',
-        demo: 'https://igalm.github.io/lazy-loading-scroll',
       }
     ]
   }
